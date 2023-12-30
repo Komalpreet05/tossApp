@@ -7,7 +7,7 @@
 
 #wrapper {
   height: 100vh;
-  background: url(https://cdn4.vectorstock.com/i/1000x1000/28/93/cricket-stadium-background-vector-15522893.jpg);
+  background: url(https://i.pinimg.com/736x/72/5a/6a/725a6a0efc3da92e6b87a9fbc92f6a67.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -65,7 +65,7 @@
     transform: rotateX(0);
   }
   100% {
-    transform: rotateX(1980deg);
+    transform: rotateX(2700deg);
   }
 }
 
@@ -74,7 +74,7 @@
     transform: rotateX(0);
   }
   100% {
-    transform: rotateX(2160deg);
+    transform: rotateX(2880deg);
   }
 }
 
@@ -92,7 +92,7 @@ button {
 }
 
 #flip-button {
-  background-color: purple;
+  background-color: #3a7cb7;
   color: white;
 }
 
@@ -103,6 +103,11 @@ button {
 }
 
 #reset-button {
-  background-color: grey;
-  color: purple;
+  background-color: #cad0ec;
+  color: black;
+}
+
+button#flip-button:hover,
+#reset-button:hover {
+  scale: 1.05;
 }

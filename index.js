@@ -33,7 +33,7 @@ function disableButton() {
     flipBtn.disabled = true;
     setTimeout(function () {
         flipBtn.disabled = false;
-    }, 3000);
+    }, 3500);
 }
 resetBtn.addEventListener("click", () => {
     coin.style.animation = "none";
