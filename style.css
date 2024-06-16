@@ -25,6 +25,7 @@
   border-radius: 10px;
   -webkit-perspective: 300px;
   perspective: 300px;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
 }
 
 .stats {
@@ -110,4 +111,32 @@ button {
 button#flip-button:hover,
 #reset-button:hover {
   scale: 1.05;
+}
+
+span.category {
+  color: #3a7cb7;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+
+/****************************MEDIA ***************/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 350px;
+    padding: 40px;
+  }
+  button {
+    width: 105px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+    padding: 30px;
+  }
+  button {
+    width: 98px;
+  }
 }

@@ -25,8 +25,8 @@ flipBtn.addEventListener("click", () => {
 })
 
 function updateStats() {
-    document.querySelector("#heads-count").textContent = `Heads: ${heads}`;
-    document.querySelector("#tails-count").textContent = `Tails: ${tails}`;
+    document.querySelector("#heads-count").innerHTML = `<span class="category">Heads:</span> ${heads}`;
+    document.querySelector("#tails-count").innerHTML = `<span class="category">Tails:</span> ${tails}`;
 }
 
 function disableButton() {
@@ -40,4 +40,5 @@ resetBtn.addEventListener("click", () => {
     heads = 0;
     tails = 0;
     updateStats();
+
 })
